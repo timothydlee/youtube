@@ -11,6 +11,7 @@
 		C0301418218138B3000501C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0301417218138B3000501C7 /* HomeViewController.swift */; };
 		C030141D218138B4000501C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C030141C218138B4000501C7 /* Assets.xcassets */; };
 		C0301420218138B4000501C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C030141E218138B4000501C7 /* LaunchScreen.storyboard */; };
+		C0580C36219A5F6000BC1579 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0580C35219A5F6000BC1579 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C030141C218138B4000501C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C030141F218138B4000501C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0301421218138B4000501C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0580C35219A5F6000BC1579 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +54,12 @@
 		C0301414218138B3000501C7 /* YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				C030141C218138B4000501C7 /* Assets.xcassets */,
+				C0301421218138B4000501C7 /* Info.plist */,
 				C0301415218138B3000501C7 /* AppDelegate.swift */,
 				C0301417218138B3000501C7 /* HomeViewController.swift */,
-				C030141C218138B4000501C7 /* Assets.xcassets */,
 				C030141E218138B4000501C7 /* LaunchScreen.storyboard */,
-				C0301421218138B4000501C7 /* Info.plist */,
+				C0580C35219A5F6000BC1579 /* UIView.swift */,
 			);
 			path = YouTube;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0301418218138B3000501C7 /* HomeViewController.swift in Sources */,
+				C0580C36219A5F6000BC1579 /* UIView.swift in Sources */,
 				C0301416218138B3000501C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
