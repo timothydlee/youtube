@@ -60,14 +60,12 @@ class VideoCell: UICollectionViewCell {
     let thumbnailImageView: UIImageView = {
         let iv = UIImageView()
         iv.backgroundColor = .blue
-        iv.translatesAutoresizingMaskIntoConstraints = false //Required to make the auto layout constraints work
         return iv
     }()
     
     let separatorView: UIView = {
         let view = UIView()
         view.backgroundColor = .black
-        view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
